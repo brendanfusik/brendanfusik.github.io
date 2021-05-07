@@ -1,0 +1,187 @@
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 20% 5% 50% 5% 20%;
+  grid-template-rows: 15% 5% 5% 5% 40% 5% 5% 20%;
+  background-color: #92da83;
+ 
+}
+.grid {
+  background-color: #444;
+  color: rgb(255, 255, 255);
+  
+}
+.header {
+  grid-column: 1/6;
+  grid-row: 1;
+  background-color:#bb0000;
+  
+  
+}
+
+.desc{
+
+  grid-column: 1/6;
+  grid-row: 2;
+  background-color:#92da83;
+  text-align: center;
+
+}
+
+.blank{
+  background-color: #92d383;
+  grid-column: 1/6;
+  grid-row: 3;
+}
+
+.button1 {
+  grid-column: 2/3;
+  grid-row: 4/6;
+ 
+  font-family: 'Segoe UI';
+  background-color: darkred;
+  
+
+  
+}
+.button22 {
+  grid-column: 4/5;
+  grid-row: 4/6;
+ 
+  font-family: 'Segoe UI';
+  background-color: darkred;
+  
+
+  
+}
+.button33 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+ 
+  font-family: 'Segoe UI';
+  background-color: darkred;
+  
+
+  
+}
+
+#right{
+  width: 100%;
+  height: 100%;
+}
+#right:hover{
+  background-color: #000000;
+  color: #ffffff;
+
+}
+#opposite{
+  width: 100%;
+  height: 100%;
+}
+#opposite:hover{
+  background-color: #000000;
+  color: #ffffff;
+
+}
+#yourside{
+  width: 100%;
+  height: 100%;
+}
+#yourside:hover{
+  background-color: #000000;
+  color: #ffffff;
+
+}
+#left{
+  width: 100%;
+  height: 100%;
+}
+#left:hover{
+  background-color: #000000;
+  color: #ffffff;
+
+}
+
+.button3:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+
+
+
+.button44 {
+  grid-column: 3/4;
+  grid-row: 6/7;
+ 
+  font-family: 'Segoe UI';
+  background-color: darkred;
+  
+
+  
+}
+ 
+
+
+.table {
+  grid-column: 3/4;
+  grid-row: 4/6;
+  background-color: #ebc25f;
+}
+
+
+.footer {
+  grid-column: 1/6;
+  grid-row:  8/9;
+
+  font-size: 300%;
+
+  background-color: #bb0000;
+}  
+
+
+
+
+.navbar {
+
+  float: none;
+  overflow: hidden;
+  padding-top: 2%;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-family: 'Segoe UI';
+  
+
+}
+
+.stats{
+  grid-column: 2/5;
+  grid-row:  8/9;
+  background-color: #bb0000;
+  font-size: 100%;
+  text-align: center;
+  font-family:'Segoe Ui';
+  color: #ffffff;
+  
+  
+}
+
+.beerdie{
+  grid-column: 1;
+  grid-row: 1;
+  color: #ffffff;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-content: center;
+  vertical-align: center;
+  font-size: 300%;
+  font-family: 'Lucida Sans';
+}
+

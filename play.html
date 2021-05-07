@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: rgb(223, 197, 142)">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css" />
+
+
+
+
+    <title>GameTime</title>
+
+    <!-- Include links to CSS stylesheets below -->
+    <!-- TODO (optional): Add link to bulma here -->
+</head>
+
+<body style="background-color: rgb(223, 197, 142)">
+    <div class="container">
+        <header class="grid header">
+            <div class="navbar">
+
+            
+                <div id="shots">Shot Type
+                    <button id="hit" class="button3">Hit</button>
+                    <button id="miss" class="button3">Miss</button>
+                    <button id="catch" class="button3">Catch</button>
+                    <button id="drain" class="button3">Drain</button>
+                    <button id="dink" class="button3">Dink</button>
+                    
+
+
+
+                </div>
+            </div>
+        </header>
+        <div class="grid desc">
+Welcome to Beer Die Stat Tracker! Clicking the buttons above will update your stats as you play beer die in real life. To register a hit you must first select hit and then click where the die bounced off. You can also choose to record the bounces even if the die does not score. Clicking any of the buttons around the table will increase the current shot by one as well. To reset the stats just refresh the page
+        </div>
+        <div class="grid blank">
+
+        </div>
+        <div class="grid table">
+            
+        </div>
+        <div class="grid button1">
+            <button id="opposite" class="button3">O<br>t<br>h<br>e<br>r<br><br> s<br>i<br>d<br>e</button>
+        </div>
+        <div class="grid button22">
+            <button id="yourside" class="button3">Y<br>o<br>u<br>r<br><br>s<br>i<br>d<br>e</button>
+        </div>
+        <div class="grid button33">
+            <button id="right" class="button3">Right</button>
+        </div>
+        <div class="grid button44">
+            <button id="left" class="button3">Left</button>
+        </div>
+
+        <div class="footer">
+
+        </div>
+        <div class="grid stats">
+
+                    <div class="pongname" id="name1er">Player 1
+                        <br>
+                    </div>
+                    <div id="p1sc">
+                        Shots: 0 || Hits: 0
+                        <br> Misses: 0 || Caught: 0
+                        <br> Bounced right: 0 || Bounced left: 0
+                        <br> Bounced other side: 0 || Bounced your side: 0
+                        <br> Drained: 0 || Dink: 0 || Points: 0
+                  </div>
+                
+        
+
+
+        </div>
+        <div class="beerdie">
+            BEER DIE
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="jquery.slicknav.js"></script>
+    <script src="render.js" type="module"></script>
+
+
+
+</body>
+
+</html>
