@@ -12,6 +12,7 @@
 .grid {
   background-color: #444;
   color: rgb(255, 255, 255);
+  font-family: 'Segoe UI';
   
 }
 .header {
@@ -33,7 +34,7 @@
 }
 
 .blank{
-  background-color: #92d383;
+  background-color: #92da83;
   grid-column: 1/6;
   grid-row: 3;
 }
