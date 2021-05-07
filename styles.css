@@ -42,7 +42,7 @@
   grid-row: 4/6;
  
   font-family: 'Segoe UI';
-  background-color: darkred;
+  
   
 
   
@@ -52,7 +52,7 @@
   grid-row: 4/6;
  
   font-family: 'Segoe UI';
-  background-color: darkred;
+ 
   
 
   
@@ -62,11 +62,18 @@
   grid-row: 3/4;
  
   font-family: 'Segoe UI';
-  background-color: darkred;
-  
 
   
 }
+
+.mainpage{
+  text-align: center;
+  font-size: 250%;
+  background-color:  #92d383;
+  color:white;
+  font-family: 'Lucida Sans'
+}
+
 
 #right{
   width: 100%;
